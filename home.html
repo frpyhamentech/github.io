@@ -113,7 +113,14 @@
                 </div>
             </div>
   </body>
-  
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+		    
   <center><script>var myVar=setInterval(function(){myTimer()},1000); function myTimer() {var d=new Date(); var t=d.toLocaleTimeString(); document.getElementById("h").innerHTML=t;}</script>
 <span id="h"></span>
 <script type="text/javascript">
