@@ -14,7 +14,7 @@
 .wrapper nav{
   position: relative;
   display: flex;
-  max-width: calc(100% - 50px);
+  max-width: calc(100% - 200px);
   margin: 0 auto;
   height: 30px;
   align-items: center;
