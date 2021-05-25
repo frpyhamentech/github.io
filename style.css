@@ -7,16 +7,16 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-  background: #171c24;
+  background: #DAA520;
   position: fixed;
   width: 100%;
 }
 .wrapper nav{
   position: relative;
   display: flex;
-  max-width: calc(100% - 200px);
+  max-width: calc(100% - 50px);
   margin: 0 auto;
-  height: 70px;
+  height: 30px;
   align-items: center;
   justify-content: space-between;
 }
@@ -25,7 +25,7 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin-left: 80px;
+  margin-left: 50px;
   display: flex;
 }
 .content .logo a{
@@ -35,7 +35,7 @@ nav .content .links{
 }
 .content .links li{
   list-style: none;
-  line-height: 70px;
+  line-height: 50px;
 }
 .content .links li a,
 .content .links li label{
