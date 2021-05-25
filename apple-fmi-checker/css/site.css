@@ -1,0 +1,239 @@
+﻿
+
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+.container-index, .container-Howto, .header, .footer, .nav-item, .container-down2, .container-down, .container-bypass, .container {
+    font-family: 'Poppins', sans-serif;
+} 
+
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Century Gothic'
+}
+
+.bg-white {
+    background-color: #000!important;
+    height: 100%;
+    max-height: 1140px;
+    margin: auto;
+    min-height: 70px;
+    height:auto;
+}
+
+    .row {
+        display: -ms-flexbox;
+        display: block;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 15px;
+    }
+
+.navbar-toggler {
+    background-color: #fff;
+    border-radius: .25rem;
+    margin: 10px 0px 10px 0px;
+}
+
+    .container-index {
+        padding: 20px 5px 0px;
+        margin: 5% auto 0%;
+        background-color: #000;
+        color: #fff;
+        border-radius: 16px;
+    }
+
+    .container-Howto {
+        padding: 10px 5px 10px;
+        margin: 0px auto 0px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 16px;
+    }
+
+
+.media {
+    border: 1px solid #212529;
+    padding: 10px;
+    margin: 5px 0px 0px 0px 
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 0px
+}
+
+.container-bypass {
+    padding: 10px 5px 10px;
+    margin: 0px auto 0px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 16px;
+}
+
+    .container-form {
+        max-width: 430px;
+        margin: 0px auto;
+    }
+
+    .container-form-result {
+        max-width: 430px;
+        margin: 20px auto 0px;
+        padding: 20px 20px 0px;
+        border-radius: 8px;
+        border: 1px solid gray;
+    }
+
+    .container-down {
+        background-color: black;
+    }
+
+    .container-down2 {
+        width: auto;
+        max-width: 1140px;
+        margin: 0px auto;
+        padding: 0px 20px 0px;
+        color: gray;
+    }
+
+
+    .input-header {
+        margin: 20px 0px 10px
+    }
+
+    .form-control, .btn btn-primary {
+        height: 42px
+    }
+
+    a.navbar-brand {
+        white-space: normal;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    /* Facebook comments, Like*/
+    .fb-like {
+        margin: 0px auto;
+        max-width: 430px;
+        text-align: center;
+    }
+
+
+/* Get History block */
+.table {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 0px;
+    color: #212529;
+}
+
+        .table thead th {
+            vertical-align: bottom;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .table td, .table th {
+            padding: 4px;
+            vertical-align: top;
+            border-top: 0px solid #dee2e6;
+        }
+
+    /* block-open-text position */
+    .block-open-text {
+        margin: 20px 0px;
+    }
+
+    .toggle-box {
+        display: none;
+    }
+
+        .toggle-box + label {
+            display: block;
+        }
+
+            .toggle-box + label + div {
+                display: none;
+            }
+
+        .toggle-box:checked + label + div {
+            display: block;
+            background: #efefef;
+            padding: 15px;
+            margin: 0px 0px 20px 0px;
+            color: gray;
+            border-radius: 6px;
+        }
+
+
+    /* Provide sufficient contrast against white background */
+    a {
+        color: #0366d6;
+    }
+
+
+    .btn-primary {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+        font-weight: bold;
+        padding: 7px 20px 7px 20px
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #fff;
+        background-color: #1b6ec2;
+        border-color: #1861ac;
+    }
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+    html {
+        font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+    .border-top {
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .box-shadow {
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    }
+
+    button.accept-policy {
+        font-size: 1rem;
+        line-height: inherit;
+    }
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+        background-color: #fff;
+        padding: 0px
+    }
+
+
