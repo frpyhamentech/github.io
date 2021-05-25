@@ -16,7 +16,7 @@
   display: flex;
   max-width: calc(100% - 200px);
   margin: 0 auto;
-  height: 70px;
+  height: 50px;
   align-items: center;
   justify-content: space-between;
 }
@@ -25,12 +25,12 @@ nav .content{
   align-items: center;
 }
 nav .content .links{
-  margin-left: 80px;
+  margin-left: 50px;
   display: flex;
 }
 .content .logo a{
-  color: #fff;
-  font-size: 30px;
+  color: #000000;
+  font-size: 50px;
   font-weight: 600;
 }
 .content .links li{
@@ -248,3 +248,12 @@ nav .content .links{
     padding-right: 30px;
   }
 }
+
+@viewport{
+  zoom 1.0;
+  width: extend-to-zoom;
+  }
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom 1.0;
+  }
