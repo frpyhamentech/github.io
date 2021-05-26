@@ -14,9 +14,9 @@
 .wrapper nav{
   position: relative;
   display: flex;
-  max-width: calc(100% - 200px);
+  max-width: calc(100% - 50px);
   margin: 0 auto;
-  height: 50px;
+  height: 70px;
   align-items: center;
   justify-content: space-between;
 }
@@ -29,8 +29,8 @@ nav .content .links{
   display: flex;
 }
 .content .logo a{
-  color: #000000;
-  font-size: 50px;
+  color: #fff;
+  font-size: 30px;
   font-weight: 600;
 }
 .content .links li{
@@ -218,6 +218,7 @@ nav .content .links{
   .content .links #show-features:checked ~ ul,
   .content .links #show-services:checked ~ ul,
   .content .links #show-items:checked ~ ul{
+		  
     max-height: 50vh;
   }
   .content .links ul li{
@@ -229,6 +230,7 @@ nav .content .links{
     border-radius: 5px!important;
   }
 }
+
  
 @media screen and (max-width: 400px){
   .wrapper nav{
@@ -248,12 +250,3 @@ nav .content .links{
     padding-right: 30px;
   }
 }
-
-@viewport{
-  zoom 1.0;
-  width: extend-to-zoom;
-  }
-@-ms-viewport{
-  width: extend-to-zoom;
-  zoom 1.0;
-  }
