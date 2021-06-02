@@ -455,3 +455,13 @@ nav li a:hover {
   border: 3px solid #e2e2e2;
   margin: 30px 0;
 }
+
+.gOYcje {
+    color: #f2008e;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.center_col, #fbtns {
+    padding: 1px 50px 0;
+}
