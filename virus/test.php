@@ -1,7 +1,5 @@
 <?php
-/* iCloud ByPass
- * @Author: CarcaBot
- */
+
 switch($_GET['action']) {
 
 case 'showSettings':
